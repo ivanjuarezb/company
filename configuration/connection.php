@@ -1,6 +1,5 @@
 <?php
-    
-    class connection{
+    class Connection{
         public static function connect(){
             try{
                 $connect = new PDO("mysql:host=localhost;dbname=dbcompany", 'root', '');
